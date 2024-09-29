@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 9rem;
+
+}
+.game {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.title{
+    font-size: 30px;
+    background-color: black;
+    padding-left: 3rem;
+
+}
+
+span{
+    font-size: 30px;
+    color: rgb(25, 245, 25);
+}
+
+.square{
+    width: 90px;
+    height: 90px;
+    float: left;
+    background-color: rgb(253, 253, 252);
+    margin: 5px;
+    color: black;
+    font-size: 70px;
+}
+
+.square:hover{
+    background-color: rgb(188, 247, 193);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.onePerson:hover , .twoPerson:hover{
+    color: rgba(255, 255, 255, 0.705);
+    cursor: pointer;
+}
+
+.info, title{
+    gap: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+    color: white;
+}
+.twoPerson{
+    display: none;
+}
+.countero{
+    padding-left: 3rem;
+}
+.counterx{
+    padding-left: 2rem;
+}
+.counter{
+    padding-left: .5rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
